@@ -6,3 +6,10 @@
 A plugin for SCP: Secret Laboratory which allows server admins to hold votes in games.
 
 Full credit goes to him for the code, I just ported it.
+
+
+## USAGE:
+
+Permission node: `poll.poll`
+
+Command (in client console (~)): .poll [Text]
