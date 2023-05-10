@@ -20,6 +20,6 @@ namespace Polls
         [Description("Message that will be broadcast when a poll Ends.")]
         public string PollEndedBroadcast { get; set; } = "The poll has ended! {numYes} voted yes and {numNo} voted no!";
         
-        bool IConfig.Debug { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
+        bool IConfig.Debug { get; set; }
     }
 }
