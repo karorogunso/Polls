@@ -9,8 +9,8 @@ namespace Polls
     {
         public static PollsPlugin Instance { get; } = new PollsPlugin();
 
-        public override Version RequiredExiledVersion { get; } = new Version(6, 0, 0);
-        public override Version Version { get; } = new Version(1, 2, 0);
+        public override Version RequiredExiledVersion { get; } = new Version(7, 0, 0);
+        public override Version Version { get; } = new Version(1, 3, 0);
 
         public Poll ActivePoll = null;
 
