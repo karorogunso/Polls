@@ -2,10 +2,12 @@ name: PollExiled Build
 on:
   push:
     branches:
+    - master
     - main
     - dev
   pull_request:
     branches:
+    - master
     - main
     - dev
   workflow_dispatch:
@@ -46,4 +48,4 @@ jobs:
         uses: actions/upload-artifact@v3.1.2
         with:
           name: Poll Development Build
-          path: "./bin/Release/Polls.dll"
+          path: "./Polls/bin/Release/Polls.dll"
